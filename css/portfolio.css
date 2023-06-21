@@ -1,0 +1,267 @@
+.portfolio__experience--wrap {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 60px;
+
+}
+
+.portfolio__titulo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: var(--preto);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+/* .portfolio__img {
+    width: 800px;
+    height: 500px;
+}
+
+.portfolio__video {
+    width: 800px;
+    height: 500px;
+    object-fit: fill;
+}
+
+.portfolio__video__img1 {
+    width: 400;
+    height: 500px;
+} */
+
+.portfolio__projects__container {
+    display: flex;
+}
+
+.portfolio__textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 250px;
+
+}
+
+.portfolio__projetos {
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
+    box-shadow: 4px 0px 20px -7px rgba(0, 0, 0, 0.75);
+    margin-bottom: 32px;
+
+}
+
+/* .portfolio__projects__name {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--preto);
+} */
+
+.portfolio__container--wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio__empresas--name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--preto);
+}
+
+.portfolio__projetos--button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    background-color: var(--azul-claro-icones);
+    width: 72px;
+    height: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--cinza);
+}
+
+/* --------------------------------------------------------- */
+
+@media screen and (min-width: 0px) {
+    .portfolio__titulo {
+        margin-top: 32px;
+        display: flex;
+        height: 26px;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .portfolio__experience--wrap {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .portfolio__projects__container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin-bottom: 64px;
+
+    }
+
+
+    .portfolio__video {
+        width: 100vw;
+        height: 144px;
+
+    }
+
+    .portfolio__img {
+        width: 100vw;
+        height: 144px;
+    }
+
+    .portfolio__projetos {
+        margin: 0;
+        margin-bottom: 16px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        box-shadow: none;
+
+    }
+
+    #video2 {
+        order: 2
+    }
+
+    #video1 {
+        order: 1
+    }
+
+    .portfolio__textos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .portfolio__projects__name {
+        justify-content: center;
+        width: 296px;
+        height: 19px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+
+    }
+
+    .portfolio__empresas--name {
+        width: 296px;
+        height: 16px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .portfolio__experience {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .portfolio__projetos--button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 80px;
+        height: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .portfolio__video {
+        width: 100vw;
+        height: 320px;
+    }
+
+    .portfolio__img {
+        width: 100vw;
+        height: 320px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #video2 {
+        order: -1
+    }
+
+    .portfolio__projects__container {
+        display: flex;
+        flex-direction:row;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .portfolio__video {
+        width: 752px;
+        height: 406px;
+    }
+
+    .portfolio__img {
+        width: 752px;
+        height: 406px;
+    }
+
+    
+    .portfolio__textos {
+        margin: 0;
+    }
+
+    .portfolio__experience{
+        padding: 0;
+    }
+
+    
+    .portfolio__projetos {
+        width: 752px;
+
+    }
+
+    .portfolio__container--wrap{
+        display: flex;
+        /* align-content: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center; */
+        
+    }
+
+    .portfolio__textos:nth-child(1){
+        display: flex;
+    }
+
+    .portfolio__textos:nth-child(2){
+        display: flex;
+        margin-left: 200px;
+    }
+
+    .portfolio__textos:nth-child(3){
+        display: flex
+    }
+}

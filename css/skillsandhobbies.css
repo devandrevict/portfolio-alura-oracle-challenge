@@ -1,0 +1,160 @@
+.skills__container {
+    display: flex;
+}
+
+.skills__title {
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: var(--preto);
+    margin-bottom: 32px;
+}
+
+.skills__hab {
+    background-color: white;
+
+
+}
+
+.skills__hobbies {
+    margin-bottom: 88px
+}
+
+.skills__name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: var(--preto);
+    font-weight: bold;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.hobbies__title {
+    margin-top: 90px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: var(--preto);
+    margin-bottom: 32px;
+}
+
+.hobbies__container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.hobbies__hob {
+    width: 176px;
+    height: 174px;
+    background-color: white;
+}
+
+.hobbies__name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: var(--preto);
+    font-weight: bold;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+
+}
+
+/* ---------------------------------------------------- */
+
+@media screen and (min-width: 0) {
+
+    .skills__hobbies.container{
+        width: 100%;
+        padding: 0px;
+
+    }
+
+    .skills__container {
+        padding: 0px;
+        margin: 0px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px
+    }
+
+    .skills__hab {
+        width: 156px;
+        height: 118px;
+
+
+    }
+
+    .skills__title {
+        width: 100%;
+        height: 26px;
+        text-align: center;
+    }
+
+    .hobbies__hob{
+        width: 156px;
+        height: 118px;
+
+    }
+
+    .hobbies__container {
+        padding: 0px;
+        margin: 0px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px
+    }
+
+    .hobbies__title{
+        width: 100%;
+        height: 26px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .skills__container{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .skills__hab {
+        width: 224px;
+        height: 118px;
+    }
+
+    .hobbies__hob {
+        width: 224px;
+        height: 118px;
+    }
+
+    .hobbies__container{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .skills__hab {
+        width: 176px;
+        height: 174px;
+    }
+
+    .hobbies__hob{
+        width: 176px;
+        height: 174px;
+    }
+
+}

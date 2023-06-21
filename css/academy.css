@@ -1,0 +1,158 @@
+.formacoes__container {
+    background-color: var(--azul-claro);
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    padding: 0px;
+    height: 400px;
+}
+
+.formacoes__titulo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: var(--preto);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding-top: 32px;
+}
+
+.formacoes__schools--img {
+    width: 190px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.formacoes__grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formacoes__schools {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formacoes__curso {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 26px;
+    color: var(--preto);
+    align-items: center;
+}
+
+.formacoes__escolas {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+    color: var(--preto);
+    align-items: center;
+}
+
+/* ---------------------------------------------------- */
+
+@media screen and (min-width: 0px) {
+    .formacoes__schools {
+        width: 296px;
+        height: 118px;
+    }
+
+    .formacoes__schools--img {
+        width: 84px;
+        height: 58px;
+    }
+
+    .formacoes__grid--columntexts {
+        padding-bottom: 30px;
+    }
+
+    .formacoes__grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .formacoes__container {
+        width: 100%;
+        height: 661px;
+    }
+
+    .formacoes__titulo {
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .formacoes__curso{
+        font-size: 10px;
+    }
+
+    .formacoes__escolas {
+        font-size: 9px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formacoes__schools {
+        width: 224px;
+        height: 118px;
+    }
+
+    .formacoes__grid--columntexts {
+        padding-bottom: 0px
+    }
+
+    .formacoes__grid {
+        display: flex;
+    }
+
+    .formacoes__container {
+        height: 300px;
+    }
+
+    .formacoes__titulo {
+        width: 100vw;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (min-width: 992px) {
+    .formacoes__titulo {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .formacoes__schools {
+        width: 368px;
+        height: 286px;
+    }
+
+    .formacoes__container {
+        height: 500px;
+    }
+
+    .formacoes__curso {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .formacoes__escolas {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .formacoes__schools--img {
+        width: 192px;
+        height: 130px;
+    }
+}
